@@ -49,7 +49,7 @@ const Navbar = () => {
         {/* DESKTOP BUTTON */}
         <NavLink
           to="/contact"
-          className="hidden md:flex bg-yellow-400 text-black px-6 py-3 rounded-full text-sm font-medium items-center gap-2 m-1"
+          className="hidden md:flex bg-yellow-400 text-black px-6 py-3 rounded-full text-sm font-medium items-center gap-2 m-1 mr-8"
         >
           Contact us
           <div className="text-yellow-300 bg-white text-3xl rounded-full">
@@ -71,14 +71,14 @@ const Navbar = () => {
           </ul>
 
           {/* MOBILE BUTTON */}
-          <div className="px-6 pb-6">
+          <div className="px-6 pb-6 ">
             <NavLink
               to="/contact"
               onClick={() => setOpen(false)}
               className="w-full flex justify-center items-center gap-2 bg-yellow-400 text-black py-3 rounded-full font-medium"
             >
               Contact us
-              <div className="text-yellow-300 bg-white text-3xl rounded-full">
+              <div className="text-yellow-300 bg-white text-3xl rounded-full ">
                 <BiRightTopArrowCircle />
               </div>
             </NavLink>

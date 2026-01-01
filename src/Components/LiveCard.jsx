@@ -7,11 +7,11 @@ const LiveCard = () => {
       <div
         className="
           absolute 
-          bottom-0 right-0
+          bottom-0 right-10
           h-48 w-[280px]          /* mobile */
           sm:h-56 sm:w-[320px]   /* small screens */
           md:h-64 md:w-[380px]   /* desktop (original) */
-          rounded-tl-[40px] 
+          rounded-t-[40px] 
           bg-white p-3 sm:p-4
         "
       >

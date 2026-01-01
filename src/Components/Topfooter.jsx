@@ -28,4 +28,4 @@ const Topfooter = () => {
   )
 }
 
-export default Topfooter
+export default Topfooter ;

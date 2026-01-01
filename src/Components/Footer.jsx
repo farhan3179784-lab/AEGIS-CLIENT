@@ -11,7 +11,6 @@ export default function Footer() {
         {/* CONTENT */}
         <div className="max-w-6xl mx-auto px-6 pt-44 pb-10">
 
-          {/* TOP ROW */}
           <div className="flex flex-col md:flex-row items-center justify-between w-full gap-6">
 
             {/* LEFT LINKS */}

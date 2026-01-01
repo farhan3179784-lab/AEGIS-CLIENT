@@ -6,11 +6,9 @@ import WhoItsFor from "../Components/WhoItsFor";
 import TrustSection from "../Components/TrustSection";
 import CTA from "../Components/CTA";
 import Topfooter from "../Components/Topfooter";
-import Hero from "../Components/Hero";
 const App = () => {
   return (
     <>
-      <Hero/>
       <SolutionSection />
       <MissionSection />
       <HowItWorks />
