@@ -2,8 +2,6 @@ import { FaArrowRight } from "react-icons/fa";
 import LiveCard from "./LiveCard";
 import heroBg from "../assets/banner.jpg";
 import { BiRightTopArrowCircle } from "react-icons/bi";
-
-// avatars
 import avatar1 from "../assets/avatar1.jpg";
 import avatar2 from "../assets/avatar2.jpg";
 import avatar3 from "../assets/avatar3.jpg";
